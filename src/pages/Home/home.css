@@ -1,20 +1,48 @@
 h1{
-    color: white;
     font-size: 2rem;
+    font-weight: 700;
+
     margin-top: 0.6rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: none;
 }
 
-input{
-    height: 1.5rem;
-    width: 70%;
-}
-
-#root > div{
+.container{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 20px;
+}
+
+.container input{
+    height: 1.5rem;
+    width: 70%;
+
+    font-size: 1rem;
+    font-weight: 300;
+
+    padding: 0.6rem;
+    
+    border: 1px solid gray;
+    border-radius: 0.2rem;
+}
+
+.container button{
+    padding: 1rem 3rem;
+    
+    border: none;
+    border-radius: 0.2rem;
+
+    font-weight: 500;
+
+    background-color: #3131e1;
+    color: white;
+
+    cursor: pointer;
+
+    transition: filter 0.2s;
+}
+
+.container button:hover{
+    opacity: 0.9;
 }
