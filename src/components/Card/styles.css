@@ -1,0 +1,12 @@
+.person__infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 70%;
+
+    border: 1px solid #818181;
+    border-radius: 0.2rem;
+
+    padding: 1rem;
+}
