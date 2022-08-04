@@ -1,24 +1,17 @@
-.header__website{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.header__website {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    padding: 1rem;
+  padding: 1rem;
 
-    border-bottom: 1px solid #818181;
+  border-bottom: 1px solid #818181;
 }
 
-.header__website strong{
-    font-size: 2rem;
+.header__website strong {
+  font-size: 2rem;
 }
 
-.header__website nav ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.header__website nav ul li{
-    list-style: none;
+.header__website nav ul li {
+  list-style: none;
 }

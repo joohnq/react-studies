@@ -1,0 +1,21 @@
+.counter__container{
+    margin-top: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.counter__container p{
+    font-size: 2rem;
+}
+
+.counter__container button{
+    margin-top: 1rem;
+    border: 1px solid #818181;
+
+    padding: 1rem;
+
+    border-radius: 0.3rem;
+}

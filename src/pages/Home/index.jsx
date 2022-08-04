@@ -1,9 +1,15 @@
-import React from 'react'
-import './home.css'
-import { Header } from '../../components/Header'
+import React from "react";
+import { Header } from "../../components/Header";
+import { Count } from "../../components/Count";
 
-export function Home(){
-    return (
-        <Header name="Home" links={["Shop", "Home", "More...", "Contact"]}/>
-    )
+export function Home() {
+  return (
+    <div>
+      <Header
+      name="Home"
+      links={["Shop", "Home", "More...", "Contact", "Salve"]}
+    />
+    <Count />
+    </div>
+  );
 }
