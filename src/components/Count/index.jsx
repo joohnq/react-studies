@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./styles.css";
 
-export function Count(){
-    return (
+export class Count extends React.Component{
+    render(){
         <div className="counter__container">
             <p>
-                <strong>Counter:</strong> 0
+                <strong>Counter:</strong> {count}
             </p>
-            <button>Adicionar</button>
+            <button 
+                onClick={() => setCount(count + 1)}> Adicionar
+            </button>
         </div>
-    )
-}
+    }
+}   
